@@ -116,6 +116,3 @@ If you have any further questions or need clarification, do not hesitate to reac
 - [Jsoup Official website](https://jsoup.org/cookbook/)
 - [Javatpoint](https://www.javatpoint.com/jsoup-tutorial)
 - [Baeldung](https://www.baeldung.com/java-with-jsoup)
-
-### Youtube Videos:
--
