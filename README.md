@@ -44,37 +44,49 @@ The primary objectives of this assignment are:
 
 ## Tasks 📝
 
-1. **Project Setup:**
-    - Clone the repository to your local machine.
-    - Open the project in an IDE like IntelliJ.
+1. **Set Up the Project:**
 
-2. **JSoup Dependency:**
-    - Add the JSoup dependency to your `build.gradle` file.
+    - Start by cloning the repository to your local machine.
+    - Open the project in an IDE such as IntelliJ.
+
+2. **Integrate JSoup Dependency:**
+
+    - Include the JSoup dependency in your `build.gradle` file.
 
     ```gradle
     dependencies {
+
       testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+
       testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
       implementation 'org.jsoup:jsoup:1.14.3'
+
     }
     ```
 
-3. **Country Class:**
-    - Create a `Country` class in Java to encapsulate country data.
 
-4. **HTML Parsing with JSoup:**
-   Utilize JSoup to parse the HTML file located in the Resources folder with path: `Fifth-Assignment-HTML-Parser\src\Resources` and extract relevant data i.e.
-    - `<span class="country-capital">` = for names of the countries
-    - `<span class="country-population">` = for population of the countries
-    - `<span class="country-area">` = for area of the countries
-      
-   **keep in mind that these span tags are nested in other tags and div closures.**
+3. **Define the Country Class:**
 
-5. **Sorting:**
-    - Implement sorting algorithms for various criteria (population, area, name).
+    - Create a `Country` class in Java to encapsulate country-specific data.
 
-6. **Displaying Results:**
-    - Present the sorted country information clearly.
+5. **HTML Parsing using JSoup:**
+
+   Utilize JSoup to parse the HTML file located in the Resources folder at this path: `Fifth-Assignment-HTML-Parser\src\Resources` and extract relevant information such as:
+
+    - `<span class="country-capital">` = for country names
+    - `<span class="country-population">` = for country populations
+    - `<span class="country-area">` = for country areas
+
+   **Note: The span tags are nested within other tags and div closures.**
+
+6. **Implement Sorting Functionality:**
+
+    - Develop sorting algorithms for various criteria like population, area, and name.
+
+8. **Visualize Results:**
+
+    - Clearly present the sorted country data.
 
 ## Evaluation 🧐
 
@@ -89,9 +101,9 @@ Your success will be judged based on:
 
 To enhance your project further:
 
-- Expand data extraction to additional websites i.e. [Hockey Teams](https://www.scrapethissite.com/pages/forms/).
+- Expand data extraction to additional websites, such as [Hockey Teams](https://www.scrapethissite.com/pages/forms/).
 - Develop a user interface for interactive querying and sorting.
-- utilize SQL/NoSQL databases to store the data that you are scraping.
+- Utilize SQL or NoSQL databases to store the scraped data.
 
 ## Submission 📁
 
