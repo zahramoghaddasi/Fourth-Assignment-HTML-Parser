@@ -63,11 +63,12 @@ The primary objectives of this assignment are:
     - Create a `Country` class in Java to encapsulate country data.
 
 4. **HTML Parsing with JSoup:**
-   Utilize JSoup to parse the HTML file and extract relevant data i.e.
-    - <span class="country-capital"> = for names of the countries
-    - <span class="country-population"> = for population of the countries
-    - <span class="country-area"> = for area of the countries
-  keep in mind that these span tags are nested in other tags and div closures.
+   Utilize JSoup to parse the HTML file located in the Resources folder with path: `Fifth-Assignment-HTML-Parser\src\Resources` and extract relevant data i.e.
+    - `<span class="country-capital">` = for names of the countries
+    - `<span class="country-population">` = for population of the countries
+    - `<span class="country-area">` = for area of the countries
+      
+   **keep in mind that these span tags are nested in other tags and div closures.**
 
 5. **Sorting:**
     - Implement sorting algorithms for various criteria (population, area, name).
@@ -88,9 +89,9 @@ Your success will be judged based on:
 
 To enhance your project further:
 
-- Fetch country data from live websites.
-- Expand data extraction to additional websites.
+- Expand data extraction to additional websites i.e. [Hockey Teams](https://www.scrapethissite.com/pages/forms/).
 - Develop a user interface for interactive querying and sorting.
+- utilize SQL/NoSQL databases to store the data that you are scraping.
 
 ## Submission 📁
 
@@ -106,8 +107,8 @@ To share your work:
 
 Here are some important points to keep in mind:
 
+- there is a `Help` folder located at the root directory of the project which contains the sorted countries each by different priorities it is there just so you can see what you r output should look like in the end.
 - The unit tests are provided to assist you in understanding the project requirements. Your final grade is not solely dependent on their results; they are meant to aid your learning process.
-  
 - Feel free to leverage ChatGPT for learning web scraping and resolving any challenges that you may not find solutions to on the internet. Utilize its capabilities to enhance your understanding and overcome obstacles effectively.
 **but It is strictly prohibited to use ChatGPT or any other AI generative model for completing any section of this assignment. Failure to comply will result in a score of 0 without any warnings.**
 - Your dedication and creative input are valued. Invest time and effort in the project as your hard work will be acknowledged and reflected in your final evaluation. The more effort you exert, the greater your potential for a higher score. Your commitment to the project is key to your success! 🏆✨
@@ -116,7 +117,10 @@ If you have any further questions or need clarification, do not hesitate to reac
 
 ## Resources 📚
 
-### Text Based Tutorials:
-- [Jsoup Official website](https://jsoup.org/cookbook/)
-- [Javatpoint](https://www.javatpoint.com/jsoup-tutorial)
-- [Baeldung](https://www.baeldung.com/java-with-jsoup)
+- [Jsoup - Official website](https://jsoup.org/cookbook/)
+- [Jsoup - Javapoint](https://www.javatpoint.com/jsoup-tutorial)
+- [Jsoup - Baeldung](https://www.baeldung.com/java-with-jsoup)
+- [HTML - W3](https://www.w3schools.com/html/)
+- [CSS - W3](https://www.w3schools.com/css/default.asp)
+- [HTML & CSS - SuperSimpleDev](https://youtu.be/G3e-cpL7ofc?si=n7VZ6-SzUMqPgYH4)
+- [HTML & CSS - BroCode](https://youtu.be/HGTJBPNC-Gw?si=UIfbcK-raImMT129)
