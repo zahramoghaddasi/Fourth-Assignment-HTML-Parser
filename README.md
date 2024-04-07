@@ -63,7 +63,11 @@ The primary objectives of this assignment are:
     - Create a `Country` class in Java to encapsulate country data.
 
 4. **HTML Parsing with JSoup:**
-    - Utilize JSoup to parse the HTML file and extract relevant data.
+   Utilize JSoup to parse the HTML file and extract relevant data i.e.
+    - <span class="country-capital"> = for names of the countries
+    - <span class="country-population"> = for population of the countries
+    - <span class="country-area"> = for area of the countries
+  keep in mind that these span tags are nested in other tags and div closures.
 
 5. **Sorting:**
     - Implement sorting algorithms for various criteria (population, area, name).
