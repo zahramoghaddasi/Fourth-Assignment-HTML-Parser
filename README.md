@@ -88,6 +88,23 @@ The primary objectives of this assignment are:
 
     - Clearly present the sorted country data.
 
+## Bonus Objectives (For Advanced Users) 🌟
+
+To enhance your project further:
+
+- Expand data extraction to additional websites, such as [Hockey Teams](https://www.scrapethissite.com/pages/forms/).
+- Develop a user interface for interactive querying and sorting.
+- Utilize SQL or NoSQL databases to store the scraped data.
+
+## Notes 📝
+
+Here are some important points to keep in mind:
+
+- there is a `Help` folder located at the root directory of the project which contains the sorted countries each by different priorities it is there just so you can see what you r output should look like in the end.
+- The unit tests are provided to assist you in understanding the project requirements. Your final grade is not solely dependent on their results; they are meant to aid your learning process. Remember to enable GitHub Actions for the test workflow to run on GitHub.
+- Feel free to leverage ChatGPT for learning web scraping and resolving any challenges that you may not find solutions to on the internet. Utilize its capabilities to enhance your understanding and overcome obstacles effectively.
+**but It is strictly prohibited to use ChatGPT or any other AI generative model for completing any section of this assignment. Failure to comply will result in a score of 0 without any warnings.**
+
 ## Evaluation 🧐
 
 Your success will be judged based on:
@@ -96,14 +113,6 @@ Your success will be judged based on:
 - Readability and maintainability of the code.
 - Efficiency of sorting algorithms.
 - Clarity of the output format.
-
-## Bonus Objectives (For Advanced Users) 🌟
-
-To enhance your project further:
-
-- Expand data extraction to additional websites, such as [Hockey Teams](https://www.scrapethissite.com/pages/forms/).
-- Develop a user interface for interactive querying and sorting.
-- Utilize SQL or NoSQL databases to store the scraped data.
 
 ## Submission 📁
 
@@ -115,17 +124,10 @@ To share your work:
 4. Push your code to the remote repository.
 5. Submit a pull request to merge the `develop` branch with `main`.
 
-## Notes 📝
-
-Here are some important points to keep in mind:
-
-- there is a `Help` folder located at the root directory of the project which contains the sorted countries each by different priorities it is there just so you can see what you r output should look like in the end.
-- The unit tests are provided to assist you in understanding the project requirements. Your final grade is not solely dependent on their results; they are meant to aid your learning process.
-- Feel free to leverage ChatGPT for learning web scraping and resolving any challenges that you may not find solutions to on the internet. Utilize its capabilities to enhance your understanding and overcome obstacles effectively.
-**but It is strictly prohibited to use ChatGPT or any other AI generative model for completing any section of this assignment. Failure to comply will result in a score of 0 without any warnings.**
-- Your dedication and creative input are valued. Invest time and effort in the project as your hard work will be acknowledged and reflected in your final evaluation. The more effort you exert, the greater your potential for a higher score. Your commitment to the project is key to your success! 🏆✨
+The deadline for submitting your code is **Wednesday, April 24** (5th of Ordibehesht).
 
 If you have any further questions or need clarification, do not hesitate to reach out to your mentor. Good luck with your project! 🌟
+
 
 ## Resources 📚
 
