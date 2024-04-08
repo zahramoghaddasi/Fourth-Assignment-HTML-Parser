@@ -1,4 +1,4 @@
-# Fifth Assignment: HTML Parser 🌐
+# Fourth Assignment: HTML Parser 🌐
 
 ## Introduction
 
@@ -72,7 +72,7 @@ The primary objectives of this assignment are:
 
 5. **HTML Parsing using JSoup:**
 
-   Utilize JSoup to parse the HTML file located in the Resources folder at this path: `Fifth-Assignment-HTML-Parser\src\Resources` and extract relevant information such as:
+   Utilize JSoup to parse the HTML file located in the Resources folder at this path: `Fourth-Assignment-HTML-Parser\src\Resources` and extract relevant information such as:
 
     - `<span class="country-capital">` = for country names
     - `<span class="country-population">` = for country populations
