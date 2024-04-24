@@ -7,7 +7,10 @@ public class Country {
     private double area;
 
     public Country(String name, String capital, int population, double area) {
-        //TODO
+        this.name = name;
+        this.capital = capital;
+        this.population = population;
+        this.area = area;
 
     }
 
@@ -29,12 +32,14 @@ public class Country {
 
     @Override
     public String toString() {
-        //TODO
-        return "";
+       String info = "Country: " + name + ", capital: " + capital + ", population: " + population + ", area: " + area;
+       return info;
     }
 
     @Override
     public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
         Country country = (Country) o;
         return population == country.population &&
                 Double.compare(country.area, area) == 0 &&
