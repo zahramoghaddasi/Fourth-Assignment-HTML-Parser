@@ -11,38 +11,49 @@ public class Parser {
 
     public List<Country> sortByName(){
         List<Country> sortedByName = new ArrayList<>(countries);
-        // Sort countries alphabetically (least)
-        //TODO
-        return  sortedByName;
+        Collections.sort(sortedByName, Comparator.comparing(Country::getName));
+        return sortedByName;
     }
 
     public List<Country> sortByPopulation(){
         List<Country> sortedByPopulation = new ArrayList<>(countries);
-        // Sort countries by population (most)
-        //TODO
+        Collections.sort(sortedByPopulation, Comparator.comparingInt(Country::getPopulation).reversed());
         return sortedByPopulation;
     }
 
     public List<Country> sortByArea(){
         List<Country> sortedByArea = new ArrayList<>(countries);
-        // Sort countries by area (most)
-        //TODO
+        Collections.sort(sortedByArea, Comparator.comparingDouble(Country::getArea).reversed());
         return sortedByArea;
     }
 
     public void setUp() throws IOException {
+        File countryfile = new File("C:\\Users\\Click\\Desktop\\fourth\\Fourth-Assignment-HTML-Parser\\src\\Resources\\country-list.html");
+        Document document = Jsoup.parse(countryfile, "UTF-8");
+        Elements extractcountries = document.select(".country");
 
-        //Parse the HTML file using Jsoup
-        //TODO
-
-        // Extract data from the HTML
-        //TODO
-
-        // Iterate through each country div to extract country data
-        //TODO
+        for (Element extractcountry : extractcountries){
+            String nameOfcountry = extractcountry.select(".country-name").text();
+            String capitalOfcountre = extractcountry.select(".country-capital").text();
+            int populationOfcountre = Integer.parseInt(extractcountry.select(".country-population").text());
+            double areaOfcountry = Double.parseDouble(extractcountry.select(".country-area").text());
+            Country country = new Country(nameOfcountry, capitalOfcountre, populationOfcountre, areaOfcountry);
+            countries.add(country);
+        }
     }
 
+
     public static void main(String[] args) {
-        //you can test your code here before you run the unit tests ;)
+        Parser parser = new Parser();
+        try {
+            parser.setUp(); // Parse the countries from the HTML file
+            List<Country> sortedByPopulation = parser.sortByPopulation(); // Sort countries by population
+            System.out.println("Countries sorted by population:");
+            for (Country country : sortedByPopulation) {
+                System.out.println(country);
+            }
+        } catch (IOException e) {
+            System.err.println("An error occurred while setting up the parser: " + e.getMessage());
+        }
     }
 }
